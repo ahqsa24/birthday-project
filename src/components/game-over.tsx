@@ -17,6 +17,9 @@ export default function GameOver({ score, totalQuestions, onRestart, children }:
       <h2 className="text-2xl font-bold text-gray-800 mb-2">Game Over</h2>
       <p className="text-gray-700 mb-1">Final Score: {score}/{totalQuestions}</p>
       <p className="text-gray-500 mb-6">({percentage}% correct)</p>
+      <p className="text-gray-600 mb-2">
+        Nah udah selesai kan buat jawab2in pertanyaannya? jangan lupa yaa buat SS hasilnya dan kirim ke nomor wa calon suamimu yaa, kalo nilainya di atas rata-rata nanti bisa nebus hadiah yang akan menyusul :V
+      </p>
 
       <button
         onClick={onRestart}

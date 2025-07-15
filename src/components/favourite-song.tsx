@@ -13,8 +13,8 @@ export default function FavouriteSong({ onBackToNext }: MusicScreenProps) {
 
   return (
     <div className="p-8 text-center">
-      <h2 className="text-2xl font-bold text-gray-800 mb-4">🎶 Fatin - Kaulah Kamuku.mp3</h2>
-      <p className="text-gray-600 mb-6">Terima kasih telah menyelesaikan kuis. Dengarkan lagu spesial berikut!</p>
+      <h2 className="text-2xl font-bold text-gray-800 mb-4">🎶 Fatin - Kaulah Kamuku</h2>
+      <p className="text-gray-600 mb-6">Lagu spesial yang menurutku mewakili hubungan ini, entah kenapa kalo ngedenger lagu ini tu keinget kamu aja, karena ya mau ada cobaan seberat apapun kaulah kamuku dan bakal tetep seperti itu. ANJAY</p>
       
       <audio ref={audioRef} controls autoPlay loop className="mx-auto mb-6">
         <source src="/music/Fatin - Kaulah Kamuku.mp3" type="audio/mpeg" />
