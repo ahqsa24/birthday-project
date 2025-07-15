@@ -15,7 +15,7 @@ import { QUESTIONS } from "./data/questions";
 type GameState = "start" | "playing" | "end";
 
 function MainApp() {
-  const [gameState, setGameState] = useState<GameState>("end");
+  const [gameState, setGameState] = useState<GameState>("start");
   const [answers, setAnswers] = useState<(number | null)[]>(QUESTIONS.map(() => null));
   const [currentQuestion, setCurrentQuestion] = useState<number>(0);
   const [score, setScore] = useState<number>(0);
