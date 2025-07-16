@@ -9,7 +9,7 @@ export const QUESTIONS: Question[] = [
   {
     question: "Dimana atir dilahirkan?",
     options: ["Purworejo", "Subang", "Denpasar", "Kost Wisma Byru"],
-    correct: 0
+    correct: 2
   },
   {
     question: "Siapa pacar fara attira sutrisno?",

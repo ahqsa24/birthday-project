@@ -32,7 +32,7 @@ export default function QuestionCard({
   return (
     <div>
       <h2 className="text-xl font-semibold text-gray-800 mb-2">
-        Question {currentQuestion + 1} of {totalQuestions}
+        Pertanyaan {currentQuestion + 1} dari {totalQuestions}
       </h2>
       <p className="text-gray-600 mb-4">{question.question}</p>
       <div className="space-y-3">

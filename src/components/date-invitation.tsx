@@ -10,7 +10,7 @@ export default function DateInvitation() {
           semoga ga error dan kamu suka sama hasilnya.
           Ini juga jadi akhir buat website singkat ini sebagai hadiah ulang tahun online kamu,
           dannn jangan lupa kalau kita masih punya jadwal date di tanggal 10 Agustus 2025 nanti,
-          concert date lhoo jangan lupa, sung aja tambahkin ke kalender,
+          concert date lhoo jangan lupa, sung aja tambahin ke kalender,
           jangan buat aku yang jadi sumala yhaa!
         </p>
         <a
